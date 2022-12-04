@@ -1,0 +1,31 @@
+Algoritmo menu_opciones
+	Escribir "Menu de opciones"	
+	Escribir "1. Atencion a clientes"
+	Escribir "2. Hablar con un asesor"
+	Escribir "3. Informacion sobre su credito"
+	Escribir "4. Horario de atencion"
+	Escribir "5. Promociones"
+	Escribir "6. Salir"
+	Escribir "Elija una opcion del (1-6)"
+	leer op
+	Segun op Hacer
+		opcion_1:
+			Escribir "Bienvenido"
+		opcion_2:
+			Escribir "en un momento un asesor se comunicara con usted"
+			
+		opcion_3:
+			Escribir "Ingresa tu tarjeta de credito"
+			leer tarjeta
+			Escribir "Su tarjeta #" tarjeta "no tiene adeudo"
+		4:
+			Escribir "8:00 a 16:00 horas"
+		5:
+			Escribir "No hay promociones el dia de hoy"
+		6:
+			Escribir "Bye"
+			
+		De Otro Modo:
+			Escribir "opcion no validad"
+	Fin Segun
+FinAlgoritmo
